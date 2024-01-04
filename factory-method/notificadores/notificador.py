@@ -13,6 +13,6 @@ class SMSNotificador(Notificador):
     def enviar_notificacion(self, mensaje):
         print(f"Enviando SMS: {mensaje}")
 
-class PushNotificador(Notificador):
-    def enviar_notificacion(self, mensaje):
-        print(f"Enviando notificación push: {mensaje}")
+# class PushNotificador(Notificador):
+#     def enviar_notificacion(self, mensaje):
+#         print(f"Enviando notificación push: {mensaje}")

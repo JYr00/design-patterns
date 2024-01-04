@@ -6,6 +6,6 @@ class NotificadorFactory:
             return EmailNotificador()
         elif tipo == "sms":
             return SMSNotificador()
-        elif tipo == "push":
-            return PushNotificador()
+        # elif tipo == "push":
+        #     return PushNotificador()
         raise ValueError("Tipo de notificador no reconocido")
