@@ -1,0 +1,28 @@
+# Python
+*.pyc
+__pycache__/
+venv/
+env/
+/.vscode/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# IDE specific files
+.vscode/
+
+# Logs
+*.log
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Miscellaneous
+.DS_Store
